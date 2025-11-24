@@ -1,0 +1,51 @@
+.body{
+    -fx-background-color: #cccccc;
+    
+}
+
+#mainSplitPane > .split-pane-divider{
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-cursor: default;
+}
+
+.HBBodyAll{
+    
+}
+
+#backgroundLinechart{
+    -fx-background-color: #E6E6E6;
+}
+
+.VBLineChart{
+    -fx-border-color: #000000;
+    -fx-border-width: 5px;
+    -fx-border-radius: 3px
+}
+
+.HBChartButton{
+    -fx-background-color:  #2E3353;
+}
+
+.VBChart{
+    -fx-background-color: transparent;
+}
+
+.VBInstant{
+    -fx-background-color: transparent;
+}
+
+.VBInstaTemp{
+    -fx-background-color:#FFFFFF;
+
+    -fx-border-color: #000000;
+    -fx-border-width: 5px;
+    -fx-border-radius: 3px
+}
+
+.apInstantTempTitle{
+    -fx-background-color:#2E3353;
+
+    
+}
+

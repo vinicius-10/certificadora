@@ -1,4 +1,9 @@
 # JARRV
+> Projeto desenvolvido para a disciplina de Certificadora de competencia 2.
+![Language](https://img.shields.io/badge/Linguagem-JAVA-orange)
+![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
+![Tipo](https://img.shields.io/badge/Tipo-Acadêmico-blue)
+##
 <div align="center">
   <picture>
     <source srcset="imagens/LogoJARRVofc-dark.png" media="(prefers-color-scheme: dark)" />
@@ -6,14 +11,6 @@
     <img src="imagens/LogoJARRVofc-dark.png" alt="Logo" width="800"/>
   </picture>
 </div>
-
-<br>
-
-
-![Language](https://img.shields.io/badge/Linguagem-JAVA-orange)
-![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
-![Tipo](https://img.shields.io/badge/Tipo-Acadêmico-blue)
-
 
 <br>
 

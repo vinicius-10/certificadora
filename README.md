@@ -1,8 +1,10 @@
 # JARRV
 > Projeto desenvolvido para a disciplina de Certificadora de competencia 2.
+
 ![Language](https://img.shields.io/badge/Linguagem-JAVA-orange)
 ![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
 ![Tipo](https://img.shields.io/badge/Tipo-Acadêmico-blue)
+
 ##
 <div align="center">
   <picture>

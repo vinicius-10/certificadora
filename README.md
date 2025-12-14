@@ -9,11 +9,11 @@
 
 <br>
 
-<div align="center">
-  ![Language](https://img.shields.io/badge/Linguagem-JAVA-orange)
-  ![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
-  ![Tipo](https://img.shields.io/badge/Tipo-Acadêmico-blue)
-</div>
+
+![Language](https://img.shields.io/badge/Linguagem-JAVA-orange)
+![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
+![Tipo](https://img.shields.io/badge/Tipo-Acadêmico-blue)
+
 
 <br>
 

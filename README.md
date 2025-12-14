@@ -1,52 +1,54 @@
 # JARRV
-<div align="left">
+<div align="center">
   <picture>
-    <!-- Dark mode image -->
     <source srcset="imagens/LogoJARRVofc-dark.png" media="(prefers-color-scheme: dark)" />
-    <!-- Light mode image -->
     <source srcset="imagens/LogoJARRVofc.png" media="(prefers-color-scheme: light)" />
-    <!-- Default/fallback image -->
     <img src="imagens/LogoJARRVofc-dark.png" alt="Logo" width="800"/>
   </picture>
 </div>
 
-<br><br>
+<br>
 
-## Certificadora de competencia - EC46H - 2025/2
+<div align="center">
+  ![Language](https://img.shields.io/badge/Linguagem-JAVA-orange)
+  ![Status do Projeto](https://img.shields.io/badge/Status-Concluído-green)
+  ![Tipo](https://img.shields.io/badge/Tipo-Acadêmico-blue)
+</div>
 
 <br>
 
- 
-## Integrantes
+## Certificadora de Competência - EC46H - 2025/2
+
+### Integrantes
 | Alunos |
 |:--------|
-| [Arthur Henrique Jardim](https://github.com/arthur-hj)  |
+| [Arthur Henrique Jardim](https://github.com/arthur-hj) |
 | [João Alberto Benaci](https://github.com/k7vinilstorage) |
-| [Rafael Munhoz Castro](https://github.com/RafinhaW74)   |
+| [Rafael Munhoz Castro](https://github.com/RafinhaW74) |
 | [Vinícius Souza Dias](https://github.com/vinicius-10) |
 
-<br><br>
-#
-Sumario
+<br>
+
+## Sumário
+| Documentação |
 |:--------|
-| [Requisitos funcionais](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Requisitos%20de%20usu%C3%A1rio/Requisitos%20Funcionais.md)  |
-| [Requisitos não funcionais](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Requisitos%20de%20usu%C3%A1rio/Requisitos%20Nao%20Funcionais.md)  |
-| [Histórias de usuario](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Requisitos%20de%20usu%C3%A1rio/Historias%20de%20Usuarios.md)  |
-| [Protótipo de alta fidelidade](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Prot%C3%B3tipo%20de%20alta%20fidelidade/Link%20para%20prot%C3%B3tipo.md)  |
-| [Requisitos de Sistema](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Requisitos%20de%20Sistema/Descri%C3%A7%C3%A3oPasta.md)  |
-| [Código](https://github.com/vinicius-10/certificadora/tree/main/C%C3%B3digo) |
+| [Requisitos Funcionais](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Requisitos%20de%20usu%C3%A1rio/Requisitos%20Funcionais.md) |
+| [Requisitos Não Funcionais](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Requisitos%20de%20usu%C3%A1rio/Requisitos%20Nao%20Funcionais.md) |
+| [Histórias de Usuário](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Requisitos%20de%20usu%C3%A1rio/Historias%20de%20Usuarios.md) |
+| [Protótipo de Alta Fidelidade](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Prot%C3%B3tipo%20de%20alta%20fidelidade/Link%20para%20prot%C3%B3tipo.md) |
+| [Requisitos de Sistema](https://github.com/k7vinilstorage/Tire-temperature-monitor/blob/main/Requisitos%20de%20Sistema/Descri%C3%A7%C3%A3oPasta.md) |
+| [Código Fonte](https://github.com/vinicius-10/certificadora/tree/main/C%C3%B3digo) |
+
+<br>
 
 ## Objetivo
-Desenvolver um sistema de monitoramento de temperatura de pneus para protótipo do projeto de extensão Fórmula CP, utilizando sensores infravermelho e um microcontrolador e enviar as leituras dos sensores para o sistema de telemetria já existente do projeto. Projetando uma interface gráfica para visualização dos dados.
-
-<br><br>
+Desenvolver um sistema de monitoramento de temperatura de pneus para o protótipo do projeto de extensão **Fórmula CP**, utilizando sensores infravermelho e um microcontrolador. O objetivo é enviar as leituras dos sensores para o sistema de telemetria já existente do projeto e projetar uma interface gráfica para visualização desses dados.
 
 ## Público-Alvo
-O público-alvo do projeto são os membros do projeto de extensão do Fórmula CP e entusiastas.
+O público-alvo do projeto são os membros do projeto de extensão do Fórmula CP e entusiastas da área automotiva.
 
-<br><br>
+## Sobre o Sistema
+### Tire Temperature Monitor
+O sistema consiste em 4 sensores de temperatura infravermelho (GY906) conectados a um microcontrolador ESP32-C3 Mini e um módulo CAN MCP2551. 
 
-## Sobre o sistema
-### tire-temperature-monitor
-O sistema consiste em 4 sensores de temperatura infravermelho (GY906) conectados a um microcontrolador ESP32-C3 Mini e um módulo can MCP2551. O sistema realizará a leitura dos sensores de temperatura e enviará os dados para o sistema de telemetria já existente. Além disso, será implementada uma interface gráfica em java para apresentar os dados recebidos.
-
+O sistema realizará a leitura dos sensores de temperatura e enviará os dados para o sistema de telemetria já existente via rede CAN. Além disso, será implementada uma interface gráfica em Java para apresentar os dados recebidos de forma amigável.
